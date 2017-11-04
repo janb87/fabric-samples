@@ -4,7 +4,8 @@
     "description": "Hyperledger Fabric Car Sample Application",
     "main": "fabcar.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "query": "node query"
     },
     "dependencies": {
         "fabric-ca-client": "^1.0.2",
