@@ -5,7 +5,7 @@ set -e
 
 docker rm -f $(docker ps -aq)
 docker network prune
-docker rmi dev-peer0.org1.example.com-fabcar-1.0-5c906e402ed29f20260ae42283216aa75549c571e2e380f3615826365d8269ba
+docker rmi dev-peer0.org1.example.com-fabcar-node-1.0-5436a4d67f5521697f4cdea223c948161337ce06997e39d3f61c3634a3cbf832
 
 docker pull hyperledger/fabric-orderer:x86_64-1.1.0-preview
 docker tag hyperledger/fabric-orderer:x86_64-1.1.0-preview hyperledger/fabric-orderer:latest
